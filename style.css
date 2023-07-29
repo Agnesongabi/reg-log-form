@@ -78,6 +78,12 @@ body{
     box-shadow:none;
     transition: .5s;
 }
+.login .inputBox #btn:hover
+{
+    color:white;
+    background:#19961e;
+    box-shadow:0 5px 10px #125a14;
+}
 .login .group
 {
     display:flex;
@@ -88,4 +94,8 @@ body{
    font-size:1.25em;
    color:#fff;
    text-decoration:none; 
+}
+.login .group a:nth-child(2)
+{
+    text-decoration:underline;
 }
