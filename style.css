@@ -66,3 +66,26 @@ body{
 {
     color:rgba(255,255,255,0.5);
 }
+.login .inputBox #btn
+{
+    position:relative;
+    border:none;
+    outline:none;
+    background:linear-gradient(0deg,#1b4018,#308b2a);
+    cursor:pointer;
+    color:#fff;
+    font-weight:500;
+    box-shadow:none;
+    transition: .5s;
+}
+.login .group
+{
+    display:flex;
+    justify-content:space-between;
+}
+.login .group a
+{
+   font-size:1.25em;
+   color:#fff;
+   text-decoration:none; 
+}
